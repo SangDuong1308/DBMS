@@ -1,0 +1,85 @@
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.AssemblyReference.cache
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.GenerateResource.cache
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfoInputs.cache
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfo.cs
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.CoreCompileInputs.cache
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.exe
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.deps.json
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.json
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.dev.json
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.dll
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.pdb
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangNhap.resources
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.dll
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.pdb
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.genruntimeconfig.cache
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.Properties.Resources.resources
+C:\Users\lox\source\repos\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangKi.resources
+D:\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.exe
+D:\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.deps.json
+D:\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.json
+D:\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.dev.json
+D:\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.dll
+D:\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.pdb
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.AssemblyReference.cache
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangKi.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangNhap.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.Properties.Resources.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.GenerateResource.cache
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfoInputs.cache
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfo.cs
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.CoreCompileInputs.cache
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.dll
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.pdb
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.genruntimeconfig.cache
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacKH.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacNhaSi.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacNV.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacQTV.resources
+D:\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThanhToan.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.exe
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.deps.json
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.json
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.dev.json
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.dll
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.pdb
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangKi.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangNhap.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThanhToan.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacKH.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacNhaSi.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacNV.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacQTV.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.Properties.Resources.resources
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.GenerateResource.cache
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfoInputs.cache
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfo.cs
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.CoreCompileInputs.cache
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.dll
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.pdb
+D:\Giao Trinh\KY VII\HQTCSDL\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.genruntimeconfig.cache
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.exe
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.deps.json
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.json
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.runtimeconfig.dev.json
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.dll
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\bin\Debug\netcoreapp3.1\ProjectHQT.pdb
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangKi.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormDangNhap.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThanhToan.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacKH.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacNhaSi.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacNV.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.FormThaoTacQTV.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.Properties.Resources.resources
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.GenerateResource.cache
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfoInputs.cache
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.AssemblyInfo.cs
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.csproj.CoreCompileInputs.cache
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.dll
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.pdb
+D:\Giao Trinh\KY VII\HQTCSDL\Lab\ProjectHQT\ProjectHQT\obj\Debug\netcoreapp3.1\ProjectHQT.genruntimeconfig.cache
