@@ -8,10 +8,10 @@ Version:4.5.8.4824-->
     <ServerName>DESKTOP-6U1V8JA\SQLEXPRESS</ServerName>
     <DatabaseName>QLPHONGKHAM</DatabaseName>
     <Username>sa</Username>
-    <SavePassword>False</SavePassword>
-    <EncryptConnection>False</EncryptConnection>
-    <TrustServerCertificate>False</TrustServerCertificate>
-    <Password />
+    <SavePassword>True</SavePassword>
+    <EncryptConnection>True</EncryptConnection>
+    <TrustServerCertificate>True</TrustServerCertificate>
+    <Password encrypted="1">UKjJDz3jUrg=</Password>
     <ScriptFolderLocation />
     <MigrationsFolderLocation />
     <AuthenticationType>SqlPassword</AuthenticationType>
@@ -1392,7 +1392,7 @@ Version:4.5.8.4824-->
       <TableType>Generated</TableType>
       <PopulationDetails version="2" type="PopulationDetails">
         <PopulationType>RowCount</PopulationType>
-        <RowCount>1000</RowCount>
+        <RowCount>100</RowCount>
         <ProportionTableExists>False</ProportionTableExists>
         <Proportion>0</Proportion>
         <TimeToPopulate>0</TimeToPopulate>
@@ -1424,7 +1424,7 @@ Version:4.5.8.4824-->
             <GeneratorProperties type="Dictionary&lt;string, object&gt;" version="1">
               <element>
                 <key type="string">Expression</key>
-                <value type="string">[A-Z0-9]*</value>
+                <value type="string">NV[0-9]{2}</value>
               </element>
               <element>
                 <key type="string">UseSequence</key>
@@ -1569,13 +1569,13 @@ Version:4.5.8.4824-->
           <DefinedSize>30</DefinedSize>
           <Generator version="1" type="GeneratorDetails">
             <GeneratorTypeName>RedGate.SQLDataGenerator.ExpressionGenerators.Regexp.RegexpGenerator</GeneratorTypeName>
-            <DisplayName>Regex Generator</DisplayName>
-            <Description>Generates data from a Regular Expression</Description>
-            <CategoryName>Generic</CategoryName>
+            <DisplayName>Full Names</DisplayName>
+            <Description>Emma Smith, John Brown, Andrew Clarke, Tom O'Hare, Claire Harris...</Description>
+            <CategoryName>Personal</CategoryName>
             <GeneratorProperties type="Dictionary&lt;string, object&gt;" version="1">
               <element>
                 <key type="string">Expression</key>
-                <value type="string">[A-Z0-9]*</value>
+                <value type="string">($"NamesFirst.txt") ($"NamesLast.txt")</value>
               </element>
               <element>
                 <key type="string">UseSequence</key>
@@ -1613,13 +1613,13 @@ Version:4.5.8.4824-->
           <DefinedSize>100</DefinedSize>
           <Generator version="1" type="GeneratorDetails">
             <GeneratorTypeName>RedGate.SQLDataGenerator.ExpressionGenerators.Regexp.RegexpGenerator</GeneratorTypeName>
-            <DisplayName>Regex Generator</DisplayName>
-            <Description>Generates data from a Regular Expression</Description>
-            <CategoryName>Generic</CategoryName>
+            <DisplayName>Address Line (street number)</DisplayName>
+            <Description>123 West Second Way, 6 Fabien Boulevard, 567 Hague St., 11 Oak Drive... </Description>
+            <CategoryName>Geographical</CategoryName>
             <GeneratorProperties type="Dictionary&lt;string, object&gt;" version="1">
               <element>
                 <key type="string">Expression</key>
-                <value type="string">[A-Z0-9]*</value>
+                <value type="string">([1-9][0-9][0-9]?) (North |East |West |South |||||||||||)(Green |White |Rocky ||||)(Nobel|Fabien|Hague|Oak|Second|First|Cowley|Clarendon|New|Old|Milton) (Way|Street|St.|Avenue|Road|Parkway|Freeway|Drive|Boulevard|Blvd.)</value>
               </element>
               <element>
                 <key type="string">UseSequence</key>

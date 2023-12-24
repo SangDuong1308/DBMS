@@ -128,7 +128,7 @@ CHECK (TinhTrangThanhToan IN ('Đã thanh toán', 'Chưa thanh toán'));
 
 ALTER TABLE NhanVien
 ADD CONSTRAINT CK_LoaiNV
-CHECK (LoaiNV IN ('Thường', 'Quản trị viên'));
+CHECK (LoaiNV IN (N'Thường', N'QTV'));
 
 ALTER TABLE TaiKhoan
 ADD CONSTRAINT CK_LoaiTK
