@@ -31,6 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormThaoTacNhaSi));
             tabControl1 = new System.Windows.Forms.TabControl();
             tabHen = new System.Windows.Forms.TabPage();
+            checkedListBox4 = new System.Windows.Forms.CheckedListBox();
+            checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+            checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             label8 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
@@ -65,6 +69,8 @@
             dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             dataGridView2 = new System.Windows.Forms.DataGridView();
             tabPage1 = new System.Windows.Forms.TabPage();
+            dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             btnXoa = new System.Windows.Forms.Button();
             btnSua = new System.Windows.Forms.Button();
             dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -73,6 +79,9 @@
             dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             btnThemLich = new System.Windows.Forms.Button();
             tabPage3 = new System.Windows.Forms.TabPage();
+            label9 = new System.Windows.Forms.Label();
+            textBox5 = new System.Windows.Forms.TextBox();
+            pictureBox11 = new System.Windows.Forms.PictureBox();
             button5 = new System.Windows.Forms.Button();
             button8 = new System.Windows.Forms.Button();
             dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
@@ -87,15 +96,6 @@
             label15 = new System.Windows.Forms.Label();
             textBox3 = new System.Windows.Forms.TextBox();
             textBox4 = new System.Windows.Forms.TextBox();
-            pictureBox11 = new System.Windows.Forms.PictureBox();
-            textBox5 = new System.Windows.Forms.TextBox();
-            label9 = new System.Windows.Forms.Label();
-            dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
-            checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            checkedListBox3 = new System.Windows.Forms.CheckedListBox();
-            checkedListBox4 = new System.Windows.Forms.CheckedListBox();
             tabControl1.SuspendLayout();
             tabHen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
@@ -110,11 +110,11 @@
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -162,6 +162,50 @@
             tabHen.TabIndex = 0;
             tabHen.Text = "Quản lý hồ sơ bệnh nhân";
             tabHen.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBox4
+            // 
+            checkedListBox4.AllowDrop = true;
+            checkedListBox4.BackColor = System.Drawing.SystemColors.ControlDark;
+            checkedListBox4.FormattingEnabled = true;
+            checkedListBox4.Items.AddRange(new object[] { "Thuốc 5", "Thuốc 6", "Thuốc 7", "Thuốc 8" });
+            checkedListBox4.Location = new System.Drawing.Point(382, 248);
+            checkedListBox4.Name = "checkedListBox4";
+            checkedListBox4.Size = new System.Drawing.Size(133, 76);
+            checkedListBox4.TabIndex = 95;
+            // 
+            // checkedListBox3
+            // 
+            checkedListBox3.AllowDrop = true;
+            checkedListBox3.BackColor = System.Drawing.SystemColors.ControlDark;
+            checkedListBox3.FormattingEnabled = true;
+            checkedListBox3.Items.AddRange(new object[] { "Thuốc 1", "Thuốc 2", "Thuốc 3", "Thuốc 4" });
+            checkedListBox3.Location = new System.Drawing.Point(227, 248);
+            checkedListBox3.Name = "checkedListBox3";
+            checkedListBox3.Size = new System.Drawing.Size(133, 76);
+            checkedListBox3.TabIndex = 94;
+            // 
+            // checkedListBox2
+            // 
+            checkedListBox2.AllowDrop = true;
+            checkedListBox2.BackColor = System.Drawing.SystemColors.ControlDark;
+            checkedListBox2.FormattingEnabled = true;
+            checkedListBox2.Items.AddRange(new object[] { "Dịch vụ 5", "Dịch vụ 6", "Dịch vụ 7", "Dịch vụ 8" });
+            checkedListBox2.Location = new System.Drawing.Point(382, 141);
+            checkedListBox2.Name = "checkedListBox2";
+            checkedListBox2.Size = new System.Drawing.Size(133, 76);
+            checkedListBox2.TabIndex = 93;
+            // 
+            // checkedListBox1
+            // 
+            checkedListBox1.AllowDrop = true;
+            checkedListBox1.BackColor = System.Drawing.SystemColors.ControlDark;
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Items.AddRange(new object[] { "Dịch vụ 1", "Dịch vụ 2", "Dịch vụ 3", "Dịch vụ 4" });
+            checkedListBox1.Location = new System.Drawing.Point(226, 141);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new System.Drawing.Size(133, 76);
+            checkedListBox1.TabIndex = 92;
             // 
             // label8
             // 
@@ -499,6 +543,21 @@
             tabPage1.TabIndex = 2;
             tabPage1.Text = "Lịch trống cá nhân";
             // 
+            // dateTimePicker5
+            // 
+            dateTimePicker5.Location = new System.Drawing.Point(203, 35);
+            dateTimePicker5.Name = "dateTimePicker5";
+            dateTimePicker5.Size = new System.Drawing.Size(315, 23);
+            dateTimePicker5.TabIndex = 86;
+            dateTimePicker5.Value = new System.DateTime(2023, 10, 16, 10, 13, 0, 0);
+            // 
+            // dateTimePicker4
+            // 
+            dateTimePicker4.Location = new System.Drawing.Point(203, 6);
+            dateTimePicker4.Name = "dateTimePicker4";
+            dateTimePicker4.Size = new System.Drawing.Size(315, 23);
+            dateTimePicker4.TabIndex = 85;
+            // 
             // btnXoa
             // 
             btnXoa.Location = new System.Drawing.Point(5, 149);
@@ -590,6 +649,35 @@
             tabPage3.TabIndex = 3;
             tabPage3.Text = "Hồ sơ cá nhân";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label9.Location = new System.Drawing.Point(327, 9);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(120, 23);
+            label9.TabIndex = 112;
+            label9.Text = "Chi phí khám";
+            label9.Click += label9_Click;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new System.Drawing.Point(327, 34);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new System.Drawing.Size(170, 23);
+            textBox5.TabIndex = 111;
+            textBox5.Text = "1000$";
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Image = (System.Drawing.Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new System.Drawing.Point(279, 9);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new System.Drawing.Size(42, 48);
+            pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox11.TabIndex = 110;
+            pictureBox11.TabStop = false;
             // 
             // button5
             // 
@@ -725,94 +813,6 @@
             textBox4.Text = "0842969898";
             textBox4.TextChanged += textBox4_TextChanged;
             // 
-            // pictureBox11
-            // 
-            pictureBox11.Image = (System.Drawing.Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new System.Drawing.Point(279, 9);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new System.Drawing.Size(42, 48);
-            pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox11.TabIndex = 110;
-            pictureBox11.TabStop = false;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new System.Drawing.Point(327, 34);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new System.Drawing.Size(170, 23);
-            textBox5.TabIndex = 111;
-            textBox5.Text = "1000$";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label9.Location = new System.Drawing.Point(327, 9);
-            label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(120, 23);
-            label9.TabIndex = 112;
-            label9.Text = "Chi phí khám";
-            label9.Click += label9_Click;
-            // 
-            // dateTimePicker4
-            // 
-            dateTimePicker4.Location = new System.Drawing.Point(203, 6);
-            dateTimePicker4.Name = "dateTimePicker4";
-            dateTimePicker4.Size = new System.Drawing.Size(315, 23);
-            dateTimePicker4.TabIndex = 85;
-            // 
-            // dateTimePicker5
-            // 
-            dateTimePicker5.Location = new System.Drawing.Point(203, 35);
-            dateTimePicker5.Name = "dateTimePicker5";
-            dateTimePicker5.Size = new System.Drawing.Size(315, 23);
-            dateTimePicker5.TabIndex = 86;
-            dateTimePicker5.Value = new System.DateTime(2023, 10, 16, 10, 13, 0, 0);
-            // 
-            // checkedListBox1
-            // 
-            checkedListBox1.AllowDrop = true;
-            checkedListBox1.BackColor = System.Drawing.SystemColors.ControlDark;
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Dịch vụ 1", "Dịch vụ 2", "Dịch vụ 3", "Dịch vụ 4" });
-            checkedListBox1.Location = new System.Drawing.Point(226, 141);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new System.Drawing.Size(133, 76);
-            checkedListBox1.TabIndex = 92;
-            // 
-            // checkedListBox2
-            // 
-            checkedListBox2.AllowDrop = true;
-            checkedListBox2.BackColor = System.Drawing.SystemColors.ControlDark;
-            checkedListBox2.FormattingEnabled = true;
-            checkedListBox2.Items.AddRange(new object[] { "Dịch vụ 5", "Dịch vụ 6", "Dịch vụ 7", "Dịch vụ 8" });
-            checkedListBox2.Location = new System.Drawing.Point(382, 141);
-            checkedListBox2.Name = "checkedListBox2";
-            checkedListBox2.Size = new System.Drawing.Size(133, 76);
-            checkedListBox2.TabIndex = 93;
-            // 
-            // checkedListBox3
-            // 
-            checkedListBox3.AllowDrop = true;
-            checkedListBox3.BackColor = System.Drawing.SystemColors.ControlDark;
-            checkedListBox3.FormattingEnabled = true;
-            checkedListBox3.Items.AddRange(new object[] { "Thuốc 1", "Thuốc 2", "Thuốc 3", "Thuốc 4" });
-            checkedListBox3.Location = new System.Drawing.Point(227, 248);
-            checkedListBox3.Name = "checkedListBox3";
-            checkedListBox3.Size = new System.Drawing.Size(133, 76);
-            checkedListBox3.TabIndex = 94;
-            // 
-            // checkedListBox4
-            // 
-            checkedListBox4.AllowDrop = true;
-            checkedListBox4.BackColor = System.Drawing.SystemColors.ControlDark;
-            checkedListBox4.FormattingEnabled = true;
-            checkedListBox4.Items.AddRange(new object[] { "Thuốc 5", "Thuốc 6", "Thuốc 7", "Thuốc 8" });
-            checkedListBox4.Location = new System.Drawing.Point(382, 248);
-            checkedListBox4.Name = "checkedListBox4";
-            checkedListBox4.Size = new System.Drawing.Size(133, 76);
-            checkedListBox4.TabIndex = 95;
-            // 
             // FormThaoTacNhaSi
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -821,6 +821,7 @@
             Controls.Add(tabControl1);
             Name = "FormThaoTacNhaSi";
             Text = "Nha sĩ";
+            Load += FormThaoTacNhaSi_Load;
             tabControl1.ResumeLayout(false);
             tabHen.ResumeLayout(false);
             tabHen.PerformLayout();
@@ -839,11 +840,11 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             tabPage3.ResumeLayout(false);
             tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
         }
 

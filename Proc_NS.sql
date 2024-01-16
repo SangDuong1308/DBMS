@@ -8,10 +8,11 @@ BEGIN
     SELECT *
     FROM V_TKNHASI
 END
+--EXEC dbo.SP_NS_XEM_TTCANHAN
 GO
 
 -- XEM HO SO KHAM BENH NHAN
-CREATE OR ALTER PROC SP_NS_XEM_BENHAN
+CREATE OR ALTER PROC SP_NS_XEM_HOSOBENHNHAN
     @MaKH VARCHAR(255)
 AS
 BEGIN
@@ -29,11 +30,14 @@ END
 GO
 
 -- XEM LỊCH LÀM VIỆC
+USE QLPHONGKHAM
+go
 CREATE OR ALTER PROCEDURE SP_NS_XEM_LICHLAMVIEC
+	@SDT CHAR(10)
 AS
 BEGIN
-    SELECT * FROM dbo.LichLamViec WHERE MaNS = CURRENT_USER
-    AND LichBan = GETDATE() 
+    SELECT dbo.LichLamViec.MaNS, dbo.LichLamViec.LichBan FROM dbo.LichLamViec INNER JOIN dbo.NhaSi ns
+	ON ns.MaNS = dbo.LichLamViec.MaNS AND ns.SDTNS = @SDT
 END
 GO
 
@@ -127,20 +131,29 @@ GO
 SELECT * FROM dbo.HoSoKham
 
 -- KÊ ĐƠN THUỐC
-CREATE OR ALTER PROC SP_NS_THEM_THUOCSD
-	@MaHS CHAR(5),
-	@MaThuoc CHAR(5),
-	@SoLuong INT
+CREATE OR ALTER PROC SP_NS_THEM_THUOC_SD
+	@MaHS char(5),
+	@MaThuoc char(5),
+	@SoLuong int
 AS
 BEGIN TRAN
-	SELECT @MaThuoc = MaThuoc
-	FROM V_KEDONTHUOC 
-	WHERE MaHS = @MaHS
+	IF (LEN(ISNULL(@MaThuoc, '')) = 0)
+		BEGIN
+			SET @MaThuoc = (SELECT MaThuoc FROM dbo.HS_T WHERE MaHS = @MaHS)
+		END
 
 	IF (LEN(ISNULL(@SoLuong, '')) = 0)
 		BEGIN
-			SET @SoLuong = (SELECT SoLuong FROM HS_T WHERE MaHS = @MaHS)
+			SET @SoLuong = (SELECT SoLuong FROM dbo.HS_T WHERE MaHS = @MaHS)
 		END
+	INSERT INTO HS_T(
+											MaHS,
+											MaThuoc,
+											SoLuong)
+
+	VALUES									(@MaHS,
+											@MaThuoc,
+											@SoLuong)
 
 	IF (@@ERROR <> 0)
 		BEGIN
@@ -151,16 +164,23 @@ BEGIN TRAN
 COMMIT TRAN
 GO
 
--- THEM DICH VU
-CREATE OR ALTER PROC SP_NS_THEM_DICHVU
-	@MaDV CHAR(5),
-	@TENDV NVARCHAR(30),
-	@ChiPhi DECIMAL(10, 2)
+EXEC dbo.SP_NS_THEM_THUOC_SD @MaHS = 'HS001',
+							 @MaThuoc = 'TH002',
+							 @SoLuong = '5'
+						 
+--Them dich vu su dung benh nhan--		 
+CREATE OR ALTER PROC SP_NS_THEM_DICHVUSD
+	@MaHS char(5),
+	@MaDV char(5)
 AS
 BEGIN TRAN
+	INSERT INTO V_GHI_DICHVU_SD(			
+											MaHS,
+											MaDV)
 
-	INSERT INTO V_TT_LOAI_DICHVU(MaDV, TenDV,ChiPhi)
-	VALUES (@MaDV, @TENDV, @ChiPhi)
+	VALUES									(@MaHS,
+											@MaDV)
+
 	IF (@@ERROR <> 0)
 		BEGIN
 			RAISERROR (N'Không thể thêm. Vui lòng thử lại', 0, 0)
@@ -169,3 +189,49 @@ BEGIN TRAN
 		END
 COMMIT TRAN
 GO
+
+
+--Them lich lam viec--
+CREATE OR ALTER PROC SP_NS_THEM_LICHLAMVIEC
+	@LichBan DATE,
+	@SDT CHAR(10)
+AS
+BEGIN TRAN
+	DECLARE @MaNS CHAR(10)
+	SELECT @MaNS = MaNS FROM dbo.NhaSi WHERE SDTNS = @SDT
+	INSERT INTO dbo.LichLamViec
+	(
+	    MaNS,
+	    LichBan
+	)
+	VALUES
+	(   
+		@MaNS,  -- MaNS - char(5)
+	    @LichBan -- LichBan - date
+	)
+
+	IF (@@ERROR <> 0)
+		BEGIN
+			RAISERROR (N'Không thể thêm. Vui lòng thử lại', 0, 0)
+			ROLLBACK TRAN
+			RETURN
+		END
+COMMIT TRAN
+GO
+
+--nha si xem lich hen voi khach hang--
+USE QLPHONGKHAM
+GO
+--DROP PROC sp_XemLichHen
+CREATE OR ALTER PROCEDURE SP_NS_XEM_LICHHEN
+    @MaNS CHAR(5)
+AS
+BEGIN
+    SELECT lh.ThoiGian, kh.HoTen AS TenKhachHang
+    FROM LichHen lh
+    JOIN KhachHang kh ON lh.MaKH = kh.MaKH
+    WHERE lh.MaNS = @MaNS
+END
+
+EXEC dbo.SP_NS_XEM_LICHHEN @MaNS = 'NS010' -- char(5)
+

@@ -54,5 +54,10 @@ namespace ProjectHQT
         {
 
         }
+
+        private void FormThaoTacNhaSi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
